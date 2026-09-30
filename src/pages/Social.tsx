@@ -10,12 +10,12 @@ const Contact = () => {
       className="max-w-2xl mx-auto space-y-8"
     >
       <div className="text-center space-y-4">
-        <h1 className="text-4xl font-bold">Get in Touch</h1>
+        <h1 className="text-4xl font-bold">Social</h1>
       </div>
 
       <div className="space-y-6">
         <motion.a
-          href="https://instagram.com/86shugo"
+          href="https://instagram.com/yungshugo"
           target="_blank"
           rel="noopener noreferrer"
           whileHover={{ scale: 1.02 }}
