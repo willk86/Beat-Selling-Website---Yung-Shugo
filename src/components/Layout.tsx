@@ -47,7 +47,7 @@ const Layout = () => {
               Beats
             </NavLink>
             <NavLink
-              to="/contact"
+              to="/socials"
               className={({ isActive }) =>
                 `hover:text-green-500 transition-colors ${
                   isActive ? "text-green-500" : "text-gray-300"

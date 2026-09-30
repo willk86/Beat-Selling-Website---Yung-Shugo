@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Beats from "./pages/Beats";
-import Social from "./pages/Social";
+import Socials from "./pages/Socials";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="beats" element={<Beats />} />
-          <Route path="social" element={<Social />} />
+          <Route path="socials" element={<Socials />} />
         </Route>
       </Routes>
     </BrowserRouter>
