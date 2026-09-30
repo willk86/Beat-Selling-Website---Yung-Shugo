@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Mail, Instagram, Twitter } from "lucide-react";
 
-const Contact = () => {
+const Socials = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -10,7 +10,7 @@ const Contact = () => {
       className="max-w-2xl mx-auto space-y-8"
     >
       <div className="text-center space-y-4">
-        <h1 className="text-4xl font-bold">Social</h1>
+        <h1 className="text-4xl font-bold">Socials</h1>
       </div>
 
       <div className="space-y-6">
@@ -31,4 +31,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Socials;
