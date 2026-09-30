@@ -54,7 +54,7 @@ const Layout = () => {
                 }`
               }
             >
-              Contact
+              Socials
             </NavLink>
           </nav>
         </div>
