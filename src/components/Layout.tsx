@@ -1,7 +1,6 @@
 import React from "react";
 import { Outlet, NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Music2 } from "lucide-react";
 
 const Layout = () => {
   return (
@@ -45,6 +44,16 @@ const Layout = () => {
               }
             >
               Beats
+            </NavLink>
+            <NavLink
+              to="/releases"
+              className={({ isActive }) =>
+                `hover:text-green-500 transition-colors ${
+                  isActive ? "text-green-500" : "text-gray-300"
+                }`
+              }
+            >
+              Releases
             </NavLink>
             <NavLink
               to="/socials"

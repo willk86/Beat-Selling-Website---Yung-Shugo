@@ -4,6 +4,7 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Beats from "./pages/Beats";
 import Socials from "./pages/Socials";
+import Releases from "./pages/Releases";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="beats" element={<Beats />} />
+          <Route path="releases" element={<Releases />} />
           <Route path="socials" element={<Socials />} />
         </Route>
       </Routes>
