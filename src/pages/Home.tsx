@@ -42,10 +42,10 @@ const Home = () => {
           <Mail className="w-12 h-12 text-green-500 mb-4" />
           <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
           <p className="text-gray-300 mb-6">
-            Looking for custom beats or collaborations? Let's work together.
+            Looking for custom beats or collaborations?
           </p>
           <Link
-            to="/contact"
+            to="/socials"
             className="inline-block bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors"
           >
             Socials
